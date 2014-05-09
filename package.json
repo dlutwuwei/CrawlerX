@@ -1,0 +1,34 @@
+{
+  "name": "CrawlerX",
+  "version": "0.0.1",
+  "dependencies": {
+    "cheerio": "0.15.0",
+    "request": "2.34.0",
+    "routes": "0.3.0",
+    "iconv-lite": "0.2.11"
+  },
+  "description": "a powerful crawler",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dlutwuwei/CrawlerX.git"
+  },
+  "keywords": [
+    "crawel",
+    "node",
+    "url"
+  ],
+  "author": "wuwie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlutwuwei/CrawlerX/issues"
+  },
+  "homepage": "https://github.com/dlutwuwei/CrawlerX"
+}
