@@ -6,7 +6,7 @@ a powerful crawler support strategy to different url
 /**
  * Created by Administrator on 14-4-4.
  */
-var crawler = require('../lib/crawler');
+var crawler = require('crawler');
 
 crawler.addStrategy(/.cnodjs.org./,function(err, $, body, url, resp){
 	  //console.log(body);
