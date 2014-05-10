@@ -4,7 +4,7 @@ CrawlerX
 a powerful crawler support strategy to different url
 ```js
 /**
- * Created by Administrator on 14-4-4.
+ * Created by wuwei on 14-4-4.
  */
 var crawler = require('crawler');
 
