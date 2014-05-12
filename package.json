@@ -1,13 +1,14 @@
 {
-  "name": "CrawlerX",
-  "version": "0.0.1",
+  "name": "crawlerx",
+  "version": "0.0.2",
   "dependencies": {
     "cheerio": "0.15.0",
     "request": "2.34.0",
     "routes": "0.3.0",
-    "iconv-lite": "0.2.11"
+    "iconv-lite": "0.2.11",
+		"async": "0.8.0"
   },
-  "description": "a powerful crawler",
+  "description": "A powerful crawler support strategy to different url, the crawler can traverse all web page in a site recursively with certain deep. of course, you alse can do not use recursive crawel.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -21,12 +22,14 @@
     "url": "https://github.com/dlutwuwei/CrawlerX.git"
   },
   "keywords": [
-    "crawel",
-    "node",
+    "crawl",
+	  "spider",
+    "web",
     "url"
   ],
-  "author": "wuwie",
-  "license": "ISC",
+  "author": "dlutwuwei",
+	"email": "dlutwuwei@qq.com",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/dlutwuwei/CrawlerX/issues"
   },
