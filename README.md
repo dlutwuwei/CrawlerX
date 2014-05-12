@@ -1,9 +1,13 @@
 # CrawlerX
 ## Introduce
 
-A powerful crawler support strategy to different url, the crawler can traverse all web page in a site **recursively** with certain deep. of course, you alse can do not use recursive crawel.
+A powerful crawler support strategy to different url, the crawler can traverse all web page in a site **recursively** with certain **deep**. of course, you alse can do not use recursive crawel.
 
 You can put **different strategy** to process the web page of certain url pattern, here we use [routes](https://www.npmjs.org/package/routes) to match the url,routes support regular expression, see [routes](https://www.npmjs.org/package/routes).
+
+In order to avoid event loop queue overflow, you can set the **concurrency** number to send certain requests in a time.
+
+it can also support more text code by using iconv-lite, to set **decode** for website with different text code.
 
 ## installation
 
