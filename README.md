@@ -3,7 +3,7 @@
 
 ## Introduce
 
-A powerful crawler support strategy to different url, the crawler can traverse all web page in a site **recursively** with certain **deep**. of course, you alse can do not use recursive crawel.
+A powerful crawler support strategy to different url, the crawler can traverse all web page in a site **recursively** with certain **deep**. of course, you alse can do not use recursive crawl in the callback.
 
 You can put **different strategy** to process the web page of certain url pattern, here we use [routes](https://www.npmjs.org/package/routes) to match the url,routes support regular expression, see [routes](https://www.npmjs.org/package/routes).
 
