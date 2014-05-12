@@ -1,15 +1,11 @@
 # CrawlerX
-
-
 ## Introduce
 
-A powerful crawler support strategy to different url, the crawler can traverse all web page in a site recursively with
-certain deep. 
+A powerful crawler support strategy to different url, the crawler can traverse all web page in a site **recursively** with certain deep. of course, you alse can do not use recursive crawel.
 
-Also, you can put different strategy to process the web page of certain url pattern, here we use [routes](https://www.npmjs.org/package/routes) to match the url, see [routes](https://www.npmjs.org/package/routes).
+You can put **different strategy** to process the web page of certain url pattern, here we use [routes](https://www.npmjs.org/package/routes) to match the url,routes support regular expression, see [routes](https://www.npmjs.org/package/routes).
 
 ## Quick Examples
-
 ```js
 /**
  * Created by wuwei on 14-4-4.
@@ -21,13 +17,19 @@ crawler.addStrategy(/.cnodjs.org./,function(err, $, body, url, resp){
     console.log($("title").text(),url);
 });
 
+crawler.addStrategy(/.github.com./,function(err, $, body, url, resp){
+	  //console.log(body);
+    console.log($("title").text(),url);
+});
+
+
 crawler.addStrategy(/.cnodjs.org./,function(err, $, body, url, resp){
 	  //console.log(body);
     console.log($("title").text(),url);
 });
 
 crawler.request("http://cnodejs.org",{decode:"utf-8",deep:3,concurrency:3}, function(err, $, body,url,resp){
-  $.spider();
+  $.spider();  //start recursive crawel
 });
 ```
 ## License
