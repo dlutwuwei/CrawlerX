@@ -10,7 +10,7 @@ You can put **different strategy** to process the web page of certain url patter
 /**
  * Created by wuwei on 14-4-4.
  */
-var crawler = require('./lib/crawler');
+var crawler = require('crawlerx');
 
 crawler.addStrategy(/.cnodjs.org./,function(err, $, body, url, resp){
 	  //console.log(body);
