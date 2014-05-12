@@ -11,7 +11,7 @@ In order to avoid event loop queue overflow, you can set the **concurrency** num
 
 it can also support more text code by using iconv-lite, to set **decode** for website with different text code.
 
-we use [request](https://github.com/mikeal/request) to browser website, you can get more config parameter for http request, see [request](https://github.com/mikeal/request).
+we use [request](https://github.com/mikeal/request) to browse website, you can get more config parameter for http request, see [request](https://github.com/mikeal/request).
 ## installation
 
 npm install crawlerx
