@@ -1,4 +1,6 @@
 # CrawlerX
+[![NPM](https://nodei.co/npm/crawlerx.png)](https://nodei.co/npm/crawlerx/)
+
 ## Introduce
 
 A powerful crawler support strategy to different url, the crawler can traverse all web page in a site **recursively** with certain **deep**. of course, you alse can do not use recursive crawel.
