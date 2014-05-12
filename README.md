@@ -9,7 +9,7 @@ You can put **different strategy** to process the web page of certain url patter
 
 In order to avoid event loop queue overflow, you can set the **concurrency** number to send certain requests in a time.
 
-It can also support more text code by using iconv-lite, set **decode** for website with different text code.
+It can also support more text code by using iconv-lite, you can set **decode** for website with different text code,or set **decode** to null let crawler analyze it automatically.
 
 We use [request](https://github.com/mikeal/request) to browse website, you can get more config parameter for http request, see [request](https://github.com/mikeal/request).
 ## installation
