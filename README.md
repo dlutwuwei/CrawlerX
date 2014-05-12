@@ -23,20 +23,15 @@ crawler.addStrategy(/.github.com./,function(err, $, body, url, resp){
 });
 
 
-crawler.addStrategy(/.cnodjs.org./,function(err, $, body, url, resp){
-	  //console.log(body);
-    console.log($("title").text(),url);
-});
-
 crawler.request("http://cnodejs.org",{decode:"utf-8",deep:3,concurrency:3}, function(err, $, body,url,resp){
-  $.spider();  //start recursive crawel
+  $.spider();  //start recursive crawl
 });
 ```
 ## License
 
 ( The MIT License )
 
-Copyright (c) 2012 - 2013 muyuan, fengmk2 and other nodeclub contributors
+Copyright (c) 2014 wuwei contributors
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
