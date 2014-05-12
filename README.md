@@ -5,6 +5,10 @@ A powerful crawler support strategy to different url, the crawler can traverse a
 
 You can put **different strategy** to process the web page of certain url pattern, here we use [routes](https://www.npmjs.org/package/routes) to match the url,routes support regular expression, see [routes](https://www.npmjs.org/package/routes).
 
+## installation
+
+npm install crawlerx
+
 ## Quick Examples
 ```js
 /**
